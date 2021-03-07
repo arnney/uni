@@ -25,7 +25,7 @@ int main()
         myBook3.addRating(4);
         myBook3.addRating(9);
 
-        //out_of_range exception. Trying to access index which is out of the possible range
+        //out_of_range exception. Trying to access index which is not in the available range
         myBook3.removeRating(3);
 
         //invalid_argument exception. Name & surname string is in incorrect format
